@@ -34,10 +34,13 @@ lake exe mclean
 Generate 2000 showered events at a fixed seed, with a performance summary:
 
 ```sh
-lake exe mclean -- \
+lake exe mclean \
   --events 2000 --seed 42 --shower \
   --output events.hepmc3 --perf-output perf.json
 ```
+
+(`lake exe <name>` passes every trailing argument straight to the executable; unlike
+`cargo run --`, there is no `--` separator to insert.)
 
 Decimal flags (`--lepton-energy`, `--hadron-energy`, `--q2min`) accept plain decimal
 literals such as `9`, `9.0` or `-1.5` -- no scientific notation.

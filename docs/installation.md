@@ -53,7 +53,7 @@ broken module fails here rather than silently not being built.
 ## Run
 
 ```sh
-lake exe mclean -- --help
+lake exe mclean --help
 ```
 
 See [Usage](usage.md) for the full command line.

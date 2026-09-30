@@ -3,6 +3,8 @@
 An event generator for deep inelastic scattering, written in Lean 4 and built on
 [EpsilonEridani](https://github.com/eic/EpsilonEridani).
 
+Installation and usage instructions: <https://eic.github.io/McLean/>.
+
 ## The split
 
 | | EpsilonEridani | McLean |
@@ -78,6 +80,7 @@ McLean.lean          intentionally empty; the lakefile glob is authoritative
 McLean/              the library
 generator/Main.lean  the `mclean` executable's entry point, outside the library glob
 scripts/             the axiom and module-system audits
+docs/                the docsify site deployed to https://eic.github.io/McLean/
 ```
 
 ## Licence
